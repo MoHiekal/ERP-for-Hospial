@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Doctor/css/bootstrap.min.css">
+        <link rel="stylesheet" href="docStyle.css">
+        <link rel="stylesheet" href="../fontawesome-free-5.10.1-web/css/all.css">
+        <link rel="shortcut icon" href="img/icons8-user-48.png">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <span style="width: 27%;">
+                    <img src="../img/placeholder_Male.jpg" alt="" class="float-left" style="width: 5em; border-radius: 50%;">
+                </span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="profiledoc.html">Profile</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Appointment <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="notifications.html">Notification</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="edit.html">Edit Account</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Doctor/doctorLogIn.html">LogOut</a>
+                      </li>
+                  </ul>
+                </div>
+                
+              </nav>
+        </header>
+        <!-------------------------------------------------------------------->
+        <div class="container">
+            <div class="row " style="border: lightgrey 3px solid;box-shadow: 5px 5px 10px 5px rgba(40, 77, 107, 0.5); margin-top:3em; margin-bottom: 2em; ">
+                <table class="table table-hover text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th scope="col">Info</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Phone</th>
+                        <th scope="col">Injury/Condition</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer">
+                                <img src="Doctor/img/doctors.png" alt="" style="width: 1.5em;"></th>
+                            <td>Sophia</td>
+                            <td>@sophia@gmail.com</td>
+                            <td>9 Oct 2019</td>
+                            <td>12:00</td>
+                            <td>+1223456678</td>
+                            <td>allergy</td>
+                            <td class="icons"><i class="fas fa-check product-approved" style="cursor: pointer;"></i>
+                                <i class="fas fa-times product-remove" style="cursor: pointer;"></i>
+                            </td>
+                        </tr>
+                      <tr>
+                        <th scope="row" onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer">
+                            <img src="Doctor/img/doctors.png" alt="" style="width: 1.5em;"></th>
+                        <td>Emma</td>
+                        <td>@emma@gmail.com</td>
+                        <td>5 Dec 2019</td>
+                        <td>9:00</td>
+                        <td>+1223456678</td>
+                        <td>allergy</td>
+                        <td class="icons"><i class="fas fa-check product-approved" style="cursor: pointer;"></i>
+                            <i class="fas fa-times product-remove" style="cursor: pointer;"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer">
+                            <img src="Doctor/img/doctors.png" alt="" style="width: 1.5em;"></th>
+                        <td>Isabella</td>
+                        <td>@isabella@gmail.com</td>
+                        <td>15 Jun 2019</td>
+                        <td>17:30</td>
+                        <td>+1223456678</td>
+                        <td>allergy</td>
+                        <td class="icons"><i class="fas fa-check product-approved" style="cursor: pointer;"></i>
+                            <i class="fas fa-times product-remove" style="cursor: pointer;"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer">
+                            <img src="Doctor/img/doctors.png" alt="" style="width: 1.5em;"></th>
+                        <td>Mark</td>
+                        <td>@mark@gmail.com</td>
+                        <td>26 Dec 2019</td>
+                        <td>8:30</td>
+                        <td>+1223456678</td>
+                        <td>allergy</td>
+                        <td class="icons"><i class="fas fa-check product-approved" style="cursor: pointer;"></i>
+                            <i class="fas fa-times product-remove" style="cursor: pointer;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer">
+                            <img src="Doctor/img/doctors.png" alt="" style="width: 1.5em;"></th>
+                        <td>Mia</td>
+                        <td>@mia@gmail.com</td>
+                        <td>2 Jul 2019</td>
+                        <td>14:15</td>
+                        <td>+1223456678</td>
+                        <td>allergy</td>
+                        <td class="icons"><i class="fas fa-check product-approved" style="cursor: pointer;"></i>
+                            <i class="fas fa-times product-remove" style="cursor: pointer;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer">
+                            <img src="Doctor/img/doctors.png" alt="" style="width: 1.5em;"></th>
+                        <td>Noah</td>
+                        <td>@noah@gmail.com</td>
+                        <td>13 Oct 2019</td>
+                        <td>10:00</td>
+                        <td>+1223456678</td>
+                        <td>allergy</td>
+                        <td class="icons"><i class="fas fa-check product-approved" style="cursor: pointer;"></i>
+                            <i class="fas fa-times product-remove" style="cursor: pointer;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer">
+                            <img src="Doctor/img/doctors.png" alt="" style="width: 1.5em;"></th>
+                        <td>Liam</td>
+                        <td>@liam@gmail.com</td>
+                        <td>19 Dec 2019</td>
+                        <td>10:15</td>
+                        <td>+1223456678</td>
+                        <td>allergy</td>
+                        <td class="icons"><i class="fas fa-check product-approved" style="cursor: pointer;"></i>
+                            <i class="fas fa-times product-remove" style="cursor: pointer;"></i>
+                        </td>
+                    </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div id="id01" class="modal">
+                <form class="modal-content animate" action="#" method="#" style="background-image: linear-gradient(to right,rgba(88,125,228,1), rgba(50,200,250,1) );">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  <img src="Doctor/img/banner2.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                  <label for="uname"><b>Patient name</b></label>
+                  <input type="text" name="uname">
+
+                  <label for="email"><b>EMail</b></label>
+                  <input type="email" name="email">
+                    
+                  <label for="num"><b>Patient Number</b></label>
+                  <input type="number" name="num">
+                    
+                  <label for="oldHistory"><b>Patient history</b></label>
+                  <textarea name="oldHistory" readonly id="old">Lorem ipsum dolor sit amet, consectetur adipisicing elit.&#13;&#10;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&#13;&#10;Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </textarea>
+                  <label for="newHistory"><b>Patient State</b></label>
+                  <textarea name="newHistory" id="new"></textarea>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1;">
+                    <button type="submit" id=btn1>OK</button>
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                </div>
+              </form>
+            </div>
+            <nav style="margin-bottom: 3em;">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link" href="apointments.html">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="apointments.html">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <span class="page-link">
+                      2
+                      <span class="sr-only">(current)</span>
+                    </span>
+                  </li>
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Next</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <!-------------------------------------------------------------------->
+        <script src="../js/jquery-3.3.1.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            $(".product-remove").on("click", function(){
+            $(this).parent().parent().hide(900,function(){
+            $(this).remove();
+            });
+            });
+            
+            $(".product-approved").on("click", function(){
+            $(this).parent().text("Approved");
+            $(this).parent().css("color", "green");
+            });
+            
+            var modal = document.getElementById('id01');
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            
+//            $("#btn1").click(function(){
+//                var txt1=$("textarea#new").val();
+//                $("textarea#old").append(txt1)
+//          });
+        </script>
+    </body>
+</html>

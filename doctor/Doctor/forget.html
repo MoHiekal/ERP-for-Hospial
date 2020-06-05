@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Doctor Registration Form </title>
+	<link rel="shortcut icon" href="img/icons8-user-48.png">
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/docStyle.css">
+</head>
+
+<body>
+	<div class="container" style="width: 45%;margin-bottom: 3em; margin-top: 3em;">
+		<form action="#" method="post">
+            <div class="imgcontainer">
+                <img src="img/banner2.png" alt="" width="100%">
+            </div>
+			<div class="form-group col-md-12">
+				<input type="email"  id="inputEmail4" placeholder="Email" name="email" required>
+			</div>
+			<div class="form-group col-md-12">
+				<input type="password"  id="inputPassword4" placeholder="New Password" name="password" autocomplete="off">
+            </div>
+            <div class="form-group col-md-12">
+                <input type="password"  id="inputPassword04" placeholder="Confirm Password" name="password" autocomplete="off">
+            </div>
+            <small>Already have an account?</small><a href="doctorLogIn.html" class="forgot-pass">Login</a><br><small>Do not have an account? </small><a href="doctorSignup.html" class="signup">Signup</a>
+			<button type="submit">Reset Password</button>
+		</form>  
+	</div>
+	<!--------------------------------------------------------->
+	<script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <Script>
+        var password = document.getElementById("inputPassword4")
+        , confirm_password = document.getElementById("inputPassword04");
+
+        function validatePassword(){
+            if(password.value != confirm_password.value){
+                confirm_password.setCustomValidity("Passwords Don't Match");
+            } 
+            else {
+                confirm_password.setCustomValidity('');
+            }
+        }
+        password.onchange = validatePassword;
+        confirm_password.onkeyup = validatePassword;
+    </Script>
+</body>
+
+</html>
